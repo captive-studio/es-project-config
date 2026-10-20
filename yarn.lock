@@ -247,7 +247,7 @@ __metadata:
   resolution: "@captive/tsup-config@workspace:packages/tsup-config"
   dependencies:
     tsup: "npm:8.5.0"
-    vite: "npm:6.4.4"
+    vite: "npm:8.2.4"
     vitest: "npm:4.1.11"
   peerDependencies:
     tsup: 8.x
@@ -5836,7 +5836,7 @@ __metadata:
     pinia: "npm:2.3.1"
     plop: "npm:4.0.4"
     react: "npm:19.2.0"
-    vite: "npm:6.4.4"
+    vite: "npm:8.2.4"
     vitest: "npm:4.1.11"
     vue: "npm:3.5.22"
   languageName: unknown
@@ -12295,26 +12295,26 @@ __metadata:
   languageName: node
   linkType: hard
 
-"vite@npm:6.4.4":
-  version: 6.4.4
-  resolution: "vite@npm:6.4.4"
+"vite@npm:8.2.4":
+  version: 8.2.4
+  resolution: "vite@npm:8.2.4"
   dependencies:
-    esbuild: "npm:^0.25.0"
-    fdir: "npm:^6.4.4"
     fsevents: "npm:~2.3.3"
-    picomatch: "npm:^4.0.2"
-    postcss: "npm:^8.5.3"
-    rollup: "npm:^4.34.9"
-    tinyglobby: "npm:^0.2.13"
+    lightningcss: "npm:^1.33.0"
+    picomatch: "npm:^4.0.5"
+    postcss: "npm:^8.5.26"
+    rolldown: "npm:~1.2.4"
+    tinyglobby: "npm:^0.2.17"
   peerDependencies:
-    "@types/node": ^18.0.0 || ^20.0.0 || >=22.0.0
+    "@types/node": ^20.19.0 || >=22.12.0
+    "@vitejs/devtools": ^0.4.0 || ^0.5.0
+    esbuild: ^0.27.0 || ^0.28.0
     jiti: ">=1.21.0"
-    less: "*"
-    lightningcss: ^1.21.0
-    sass: "*"
-    sass-embedded: "*"
-    stylus: "*"
-    sugarss: "*"
+    less: ^4.0.0
+    sass: ^1.70.0
+    sass-embedded: ^1.70.0
+    stylus: ">=0.54.8"
+    sugarss: ^5.0.0
     terser: ^5.16.0
     tsx: ^4.8.1
     yaml: ^2.4.2
@@ -12324,11 +12324,13 @@ __metadata:
   peerDependenciesMeta:
     "@types/node":
       optional: true
+    "@vitejs/devtools":
+      optional: true
+    esbuild:
+      optional: true
     jiti:
       optional: true
     less:
-      optional: true
-    lightningcss:
       optional: true
     sass:
       optional: true
@@ -12346,7 +12348,7 @@ __metadata:
       optional: true
   bin:
     vite: bin/vite.js
-  checksum: 10/26145545fc7488ccbc00180992f929a7fff8f30cb83cff37a69b2b8a6a24730044121d69b891125196ee1704c82d6a9afec13d31f0fa10d2282304816ff2586c
+  checksum: 10/7b82d1d22a186006aaae83e9c7cd1d8271cc1dc09d85422aa129b14f5ddb4c476ed4445f2ba61b053d4b7cfeaaf4753a70dbb8eccbc2121128310e667ed15d3f
   languageName: node
   linkType: hard
 
